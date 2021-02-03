@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #8dc63f color;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.block1 {
+    display: flex;
+    align-items: center;
+}
+
+.block1 a {
+    margin-left: 25px;
+}
+
+.block1 {
+    margin-right: 15px;
+}
+
+.block1>a {
+    color: #333;
+    transition: .6s;
+    font-size: 15px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons>a {
+    color: blue;
+    background-color: #000);
+    color: #3157dc;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
