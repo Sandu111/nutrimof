@@ -1,0 +1,25 @@
+                    .container {
+                        padding-left: 13%;
+                        padding-right: 13%;
+                    }
+                    
+                    .wrap {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                    }
+                    
+                    .section-learn {
+                        text-align: center;
+                    }
+                    
+                    .items {
+                        width: 72%;
+                        text-align: center;
+                    }
+                    
+                    .items img {
+                        width: 340px;
+                        height: 340px;
+                        margin-bottom: 30%;
+                    }

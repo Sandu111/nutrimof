@@ -3,8 +3,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 13%;
+        padding-right: 13%;
+        padding-bottom: 5px;
+        padding-top: 10px;
     }
     
     .block1 {
@@ -21,6 +23,7 @@
     .block1>p {
         margin-left: 10px;
         color: white;
+        font-size: 14px;
     }
     
     .icons {
@@ -29,7 +32,7 @@
     
     .icons>i {
         color: white;
-        background-color: #72a32d;
+        background-color: #85bb3a;
         border-radius: 50%;
         width: 28px;
         height: 28px;
