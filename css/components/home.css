@@ -49,5 +49,41 @@
     left: 0;
 }
 
+.plan {
+    background-color: #8dc63f;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
 
+.plan>h3 {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.plan>p {
+    color: white;
+}
+
+.contact {
+    display: flex;
+    margin-top: 8%;
+}
+
+.contact>button {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 16px;
+}
+
+.contact>input {
+    display: block;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 35%;
+    font-size: 14px;
+    color: #999;
 }
