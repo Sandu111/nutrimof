@@ -39,6 +39,11 @@
     outline: none;
 }
 
+.text>:hover {
+    background-color: #fff;
+    color: #8dc63f;
+}
+
 .learn>p {
     text-align: center;
     font-size: 35px;

@@ -23,3 +23,25 @@
                         height: 340px;
                         margin-bottom: 30%;
                     }
+                    
+                    .exp {
+                        text-align: center;
+                    }
+                    
+                    .section-padding {
+                        padding-top: 120px;
+                        padding-bottom: 120px;
+                    }
+                    
+                    .exp h3 {
+                        color: #333;
+                        font-size: 36px;
+                        font-weight: bold;
+                    }
+                    
+                    .exp p {
+                        font-size: 15px;
+                        color: #999;
+                        padding: 0 25%;
+                        margin-top: 20px;
+                    }
