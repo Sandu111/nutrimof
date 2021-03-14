@@ -29,19 +29,23 @@
 }
 
 .text>button {
-    width: 20%;
+    width: 25%;
     padding: 3%;
+    margin-top: 30px;
     border-radius: 30px;
     border: none;
     color: #ffffff;
-    font size: 14px;
+    font-size: 16px;
+    font-weight: 400;
     background-color: #8dc63f;
     outline: none;
 }
 
-.text>:hover {
-    background-color: #fff;
+.text>button:hover {
+    background-color: white;
     color: #8dc63f;
+    transition: 3s;
+    opacity: 1;
 }
 
 .learn>p {
@@ -54,8 +58,14 @@
     left: 0;
 }
 
-.plan {
+.plan-section {
+    background-position: center center;
+    position: relative;
     background-color: #8dc63f;
+    background-position: center;
+}
+
+.plan {
     margin-top: 8%;
     margin-bottom: 8%;
 }
@@ -64,6 +74,7 @@
     font-size: 35px;
     color: white;
     font-weight: bold;
+    margin-bottom: -5px;
 }
 
 .plan>p {
@@ -77,18 +88,31 @@
 
 .contact>button {
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: black;
+    padding: 18px;
+    background-color: #252525;
+    line-height: 1;
     color: blanchedalmond;
     font-size: 16px;
+    font-weight: 500;
+    border: none;
 }
 
 .contact>input {
     display: block;
-    width: 100%;
-    padding-left: 5%;
-    padding-right: 35%;
-    font-size: 14px;
+    width: 150%;
+    height: 70%;
+    padding: 18px;
+    padding-right: 140px;
+    font-size: 16px;
     color: #999;
+    transition: 4s;
+}
+
+.contact>input:hover {
+    border: none;
+}
+
+.contact>button:hover {
+    color: #8dc63f;
+    background-color: #ffffff;
 }

@@ -33,11 +33,17 @@
     .icons>i {
         color: white;
         background-color: #85bb3a;
+        padding: 1px;
         border-radius: 50%;
-        width: 28px;
-        height: 28px;
+        width: 29px;
+        height: 29px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 5px;
+    }
+    
+    .icons>i:hover {
+        color: #8dc63f;
+        background-color: #fff;
     }
