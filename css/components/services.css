@@ -62,21 +62,21 @@
 
 .exp-peoples>p {
     padding: 0px;
-    color: #f2f2f2;
+    color: white;
     font-size: 15px;
     font-weight: 500;
 }
 
 .exp-peoples>h3 {
-    color: #f2f2f2;
-    font-size: 36px;
-    font-weight: bold;
+    color: white;
+    font-size: 47px;
+    font-weight: 700;
     margin-bottom: 70px;
 }
 
 .lorem>p {
     font-size: 19px;
-    color: #f2f2f2;
+    color: white;
 }
 
 .lorem p>i {

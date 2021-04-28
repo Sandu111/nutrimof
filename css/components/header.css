@@ -1,5 +1,5 @@
 .header {
-    position: relative;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,8 +7,9 @@
     border: 1px solid rgb(209, 199, 199);
     padding-left: 15%;
     padding-right: 15%;
-    position: fixed;
+    position: sticky;
     padding-top: 0%;
+    top: 0%;
     right: 0;
     left: 0;
     background-color: white;
@@ -30,7 +31,7 @@
 
 .links>a {
     position: relative;
-    margin: 18px;
+    margin: 19px;
     color: #2d2d2d;
     font-size: 16 px;
     font-weight: 500;

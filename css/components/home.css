@@ -3,35 +3,91 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(../../images/home.jpg);
+    margin: 0;
+    padding: 0;
 }
 
-.text {
+.slide-container,
+#all-slides {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.slide-container {
+    display: flex;
+    align-items: center;
+}
+
+#all-slides {}
+
+.slide,
+.slide-img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+}
+
+.slide-img {
     position: absolute;
-    width: 47%;
+    z-index: -1;
+}
+
+.dest {
+    position: absolute;
+    font-size: 50px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(252, 247, 247);
+}
+
+.next {
+    right: 1%;
+}
+
+.prev {
+    left: 1%;
+}
+
+.slide.active {
+    display: flex;
+}
+
+.slide>h2 {
     padding-left: 10%;
-    padding-right: 15%;
-    padding-top: 30%;
-    padding-top: 0%;
-    right: 0;
-    left: 0;
+    padding-right: 48%;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 700;
 }
 
-.text>h2 {
+.slide>p {
+    padding-left: 10%;
+    padding-right: 48%;
+    text-align: left;
+    font-size: 15px;
     color: #fff;
-    font-size: 350%;
-    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-.text>p {
-    color: #fff;
-    margin: 10px;
-}
-
-.text>button {
-    width: 25%;
-    padding: 3%;
-    margin-top: 30px;
+.slide>button {
+    position: relative;
+    padding-left: 10%;
+    padding-right: 48%;
+    margin-right: 70%;
+    width: 10%;
+    padding: 20px;
     border-radius: 30px;
     border: none;
     color: #ffffff;
@@ -41,7 +97,7 @@
     outline: none;
 }
 
-.text>button:hover {
+.slide>button:hover {
     background-color: white;
     color: #8dc63f;
     transition: 3s;
